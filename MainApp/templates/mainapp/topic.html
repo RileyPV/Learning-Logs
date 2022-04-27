@@ -1,0 +1,23 @@
+{% extends "MainApp/base.html" %}
+
+{% block content %}
+
+<!--
+    topic is the context key,value for topic
+-->
+
+<p>Topic: {{ topic }}</p>
+
+<ul>
+    <li>
+    {% for e in entries %}
+    <p>{{ e.text }}</p>
+    <p>{{ e.date_added }}</p>
+    <li>
+    {% empty %}
+    <li>There are no entries for this topic yet.
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
