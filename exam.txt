@@ -1,0 +1,4 @@
+Steps for creating a new page:
+1) URL (MainApp - urls.py)
+2) View (MainApp - views.py)
+3) Template (MainApp - html)
