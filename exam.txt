@@ -2,3 +2,9 @@ Steps for creating a new page:
 1) URL (MainApp - urls.py)
 2) View (MainApp - views.py)
 3) Template (MainApp - html)
+
+Steps for making changes to our DB:
+1) make a migration file - makemigrations MainApp
+2) migrate to the DB - py manage.py migrate
+
+KNOW STYLING for Learning Log - bootstrap
